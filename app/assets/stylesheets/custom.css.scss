@@ -26,6 +26,7 @@ $navbar-default-bg: green;
   background-image: asset-url('background.jpg');
   background-size: cover;
   height: 750px;
+  border: 2px solid black;
 }
 
 .jumbotron h1 {
@@ -44,6 +45,15 @@ $navbar-default-bg: green;
 .btn-xlarge {
   font-size: 1.7em;
   background-color: black;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
 }
 
 
