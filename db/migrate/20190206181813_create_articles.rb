@@ -4,7 +4,7 @@ class CreateArticles < ActiveRecord::Migration[5.0]
       t.string :title
       t.text :description
       t.datetime :created_at
-      t.datetime :created_at
+      t.datetime :updated_at
     end
   end
 end
